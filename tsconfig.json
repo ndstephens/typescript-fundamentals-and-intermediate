@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "dist", // where to put the TS files
+    "strict": true,
     "target": "ES2021" // which level of JS support to target
   },
   "include": ["ts-playground.ts"] // which files to compile

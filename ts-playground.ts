@@ -1,11 +1,11 @@
-function div(a: number, b: number) {
-  return a / b;
-}
+const phones: {
+  [k: string]:
+    | {
+        country: string;
+        area: string;
+        number: string;
+      }
+    | undefined;
+} = {};
 
-const thing = div(5, 0);
-
-console.log(thing);
-
-function add(a: number, b: number): number {
-  return a + b;
-}
+phones.fax;
