@@ -1,0 +1,14 @@
+{
+  "name": "typescript-fundamentals-and-intermediate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndstephens/typescript-fundamentals-and-intermediate.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
