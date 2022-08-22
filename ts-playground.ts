@@ -9,3 +9,5 @@ const phones: {
 } = {};
 
 phones.fax;
+
+let myCar: [number, string, string] = [2002, 'Toyota', 'Corolla'];
