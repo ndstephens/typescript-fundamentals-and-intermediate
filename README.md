@@ -2,11 +2,12 @@
 
 These are my notes while taking the courses (taught by [Mike North](https://github.com/mike-north)) on [Frontend Masters](https://frontendmasters.com/).
 
-The companion websites are excellent resources. Most of my notes here will be for:
+The companion websites are excellent and the primary resource of information.
 
-- Additional information
-- Further explanations
+My notes here are basically for:
+
 - Highlighting of things to remember
+- Additional information and explanations
 - Important and reusable examples
 
 <br>
