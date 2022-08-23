@@ -10,6 +10,8 @@ My notes here are basically for:
 - Additional information and explanations
 - Important and reusable examples
 
+Some of my notes might include direct copies of text and code from the companion websites.
+
 <br>
 
 ## TypeScript Fundamentals, v3
