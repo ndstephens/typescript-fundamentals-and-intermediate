@@ -1,4 +1,4 @@
-# Function return values
+# Function return types
 
 It's best to explicitly state function return types b/c it changes where errors are surfaced.
 
