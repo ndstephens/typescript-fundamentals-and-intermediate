@@ -22,7 +22,9 @@ For example, the `let` variable declaration above could have assumed `age` to be
 
 ---
 
-### Objects
+<br>
+
+## Objects
 
 This is why object properties will be non-literal types when inferred...b/c object properties are mutable.
 

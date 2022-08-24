@@ -20,7 +20,9 @@ shared.name; // <- works b/c both object have a property "name" of type "string"
 
 ---
 
-## Type Guards & Discriminated Unions
+<br>
+
+## Type Guards and Discriminated Unions
 
 ```ts
 function flipCoin(): 'heads' | 'tails' {
@@ -62,7 +64,7 @@ const [first, second] = outcome;
 // }
 ```
 
-<br>
+---
 
 ### Narrow with a type guard
 
@@ -72,7 +74,7 @@ We could run a check on `second` and verify if either `second instance of Error`
 
 But a simpler approach is using the string value of `first` to determine the value of `second` in `outcome`.
 
-<br>
+---
 
 ### Discriminated Unions (aka "Tagged" Union)
 

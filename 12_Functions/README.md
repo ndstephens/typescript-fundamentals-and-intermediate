@@ -20,9 +20,9 @@ interface TwoNumberCalculation {
 const add: TwoNumberCalculation = (a, b) => a + b;
 ```
 
-<br>
-
 ---
+
+<br>
 
 ## `void`
 

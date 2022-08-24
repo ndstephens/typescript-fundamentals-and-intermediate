@@ -32,9 +32,9 @@ Now it would compile properly.
 >
 > TypeScript only verifies the types.
 
-<br>
-
 ---
+
+<br>
 
 ## Better Error Notification
 

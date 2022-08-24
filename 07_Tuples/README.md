@@ -24,6 +24,8 @@ let myCar: [number, string, string] = [2002, 'Toyota', 'Corolla'];
 
 ---
 
+<br>
+
 ## Limitations
 
 > As of `TypeScript 4.3` there’s limited support for enforcing tuple length constraints.

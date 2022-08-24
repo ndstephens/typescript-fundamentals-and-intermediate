@@ -1,6 +1,6 @@
 # Basics
 
-## package.json
+## `package.json`
 
 ```json
 {

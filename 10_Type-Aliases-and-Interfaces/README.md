@@ -32,9 +32,9 @@ const newYearsEve: SpecialDate = {
 
 While there’s no true `extends` keyword that can be used when defining type aliases, this pattern has a very similar effect
 
-<br>
-
 ---
+
+<br>
 
 ## Interfaces
 
@@ -154,9 +154,9 @@ interface Window {
 
 What we have done here is augment an existing `Window` interface that TypeScript has set up for us behind the scene.
 
-<br>
-
 ---
+
+<br>
 
 ## Choosing between a `type` or an `interface`
 
@@ -167,9 +167,9 @@ In many situations, either a `type` alias or an `interface` would be perfectly f
 1. If you need to **_allow consumers of your types to augment them_**, you must use an interface.
    1. If you're creating an open-source library, for instance, use interfaces.
 
-<br>
-
 ---
+
+<br>
 
 ## Recursion
 
