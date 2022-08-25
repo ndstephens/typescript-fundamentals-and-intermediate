@@ -6,7 +6,7 @@ They are a way of defining types that are expressed in terms of other types.
 
 <br>
 
-> Often they're used as a mechanism of defining a relationship between the type of thing we **_pass to a function_**, and the type of thing **_returned from that function_**.
+> Often they're used as a mechanism of defining a relationship between the type of thing we **_pass to a function_**, and the type of thing **_returned from that function_**. But they aren't limited to only being used with functions.
 
 <br>
 
@@ -85,3 +85,12 @@ wrapInArray(new Date());
 wrapInArray(new RegExp('/s/'));
 // function wrapInArray<RegExp>(arg: RegExp): [RegExp]
 ```
+
+---
+
+<br>
+
+## Generics Best Practices
+
+- The point of Generics and Type Parameters is to relate multiple things.
+- Use each type parameter _at least twice_.
