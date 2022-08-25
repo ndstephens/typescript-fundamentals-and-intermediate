@@ -2,9 +2,7 @@
 
 Generics are `type parameters`.
 
-By allowing us to parameterize types, Generics unlock opportunities to reuse types broadly across a TS project.
-
-Generics are a way of creating types that are expressed in terms of other types.
+They are a way of defining types that are expressed in terms of other types.
 
 <br>
 
