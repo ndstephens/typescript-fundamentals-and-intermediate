@@ -33,6 +33,12 @@ type DateSymbolPropertyNames = DatePropertyNames & symbol;
 // type DateSymbolPropertyNames = typeof Symbol.toPrimitive
 ```
 
+<br>
+
+> **_NOTE:_** this is similar to using the `Extract` TS utility
+
+<br>
+
 ---
 
 <br>
