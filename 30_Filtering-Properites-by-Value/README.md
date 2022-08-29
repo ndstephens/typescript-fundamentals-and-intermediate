@@ -179,8 +179,8 @@ type RelevantDocumentKeys = {
 
 - Therefore the result is a `union` of all the `values`
   - Remember, those `values` either match some of the `keys` or are `never`
-  - `never` is returned as `undefined`
-  - Therefore the result is a `union` of the `keys` that matched the `conditional` and a single instance of `undefined`
+  - `never` values simply disappear from the union (`'foo' | never = 'foo'`)
+  - Therefore the result is a `union` of the `keys` that matched the `conditional` (and a single instance of `undefined` for some reason)
 
 ```ts
 // Generic
@@ -223,6 +223,7 @@ type RelevantDocumentKeys = {
 
 - Only those `keys` that exist in both `unions` will be returned
 - Since `undefined` does not exist in the `union` to the right of the `intersection operator` (`&`) it will be excluded from the final result
+- Could also simply do an `intersection` with the type `string` to remove `undefined`, but using `& keyof T` is safer and more explicit
 - The final result is a `union` of `string literal types` that correspond to the `keys` of `Document` whose `value` matched the `conditional`
 
 ```ts
