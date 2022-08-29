@@ -1,6 +1,8 @@
 # Use Mapped types with Indexed Access types
 
-Mapped types work great with indexed access types, because the index can be used when defining the value type.
+## Filtering Properties by _key_
+
+Mapped types work great with indexed access types, because the index is used when defining the value type.
 
 ```ts
 type PartOfWindow = {
